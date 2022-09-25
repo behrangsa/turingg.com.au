@@ -1,0 +1,11 @@
+# Output
+dist/
+
+# Node
+node_modules/
+
+# JetBrains
+.idea/
+
+# Parcel
+.parcel-cache
