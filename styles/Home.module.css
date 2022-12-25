@@ -16,11 +16,22 @@
 }
 
 .companyName {
-  font-size: 2rem;
   font-weight: 700;
+  font-size: 3rem;
 }
 
 .aboutUs {
   padding-top: 3rem;
   font-size: 1.5rem;
+}
+
+.pastClients {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.pastClients li {
+  display: flex;
 }

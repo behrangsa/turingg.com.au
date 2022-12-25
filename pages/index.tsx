@@ -17,31 +17,28 @@ export default function Home() {
       <main className={styles.main}>
         <header className={styles.header}>
           <Logo />
-          <div className={`${plex.className} ${styles.companyName}`}>
-            Turingg
-          </div>
+          <h1 className={`${plex.className} ${styles.companyName}`}>Turingg</h1>
         </header>
 
         <div className={`${plex.className} ${styles.aboutUs}`}>
+          <h2>About us</h2>
           <p>
-            We are a small team of software developers based in Melbourne,
-            Australia. We help our clients with their cloud infrastructure,
-            backend, and frontend development, requirements gathering, and
-            solution design needs.
-          </p>
-          <p>
-            If you are looking to build a new website for your business, or if
-            you are looking to renovate your existing website(s), we can also help
-            you with that by embracing modern and agile technologies such as Next.js, Vercel, and serverless.com.
+            We are a small team of software developers based in
+            Melbourne,&nbsp;Australia. We help our clients with their cloud
+            infrastructure, backend &amp; frontend development, requirements
+            gathering, &amp; solution design needs.
           </p>
 
-          <h2>Our past clients:</h2>
-          <ul>
-            <li>Origin</li>
-            <li>Sportsbet</li>
-            <li>ANZ</li>
-            <li>NAB</li>
-          </ul>
+          <video autoPlay loop style={{ width: "100%" }}>
+            <source src="/AdobeStock_435578734_Video_HD_Preview.mov" />
+          </video>
+
+          <p>
+            If you are looking to build a new website for your business, or if
+            you are looking to renovate your existing website(s), we can help
+            you with that by embracing modern &amp; agile technologies such as
+            Next.js, Vercel, &amp; serverless.com.
+          </p>
         </div>
       </main>
     </>

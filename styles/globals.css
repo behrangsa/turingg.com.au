@@ -100,7 +100,7 @@ a {
 }
 
 p {
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 
 @media (prefers-color-scheme: dark) {
