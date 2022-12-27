@@ -1,12 +1,13 @@
 {
-	"name": "turingg.com.au",
-	"features": {
-		"ghcr.io/devcontainers/features/github-cli": {}
-	},
-	"portsAttributes": {
-		"3000": {
-			"label": "Preview",
-			"onAutoForward": "notify"
-		}
-	}
+  "name": "turingg.com.au",
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli": {},
+    "ghcr.io/devcontainers/features/nix:1": {}
+  },
+  "portsAttributes": {
+    "3000": {
+      "label": "Preview",
+      "onAutoForward": "notify"
+    }
+  }
 }
