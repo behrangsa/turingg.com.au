@@ -3,4 +3,3 @@
 set -e
 
 npm install -g pnpm
-pnpm install
