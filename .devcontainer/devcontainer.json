@@ -1,7 +1,8 @@
 {
   "name": "turingg.com.au",
   "features": {
-    "ghcr.io/devcontainers/features/github-cli": {}
+    "ghcr.io/devcontainers/features/github-cli": {},
+    "ghcr.io/devcontainers/features/node:1": {}
   },
   "portsAttributes": {
     "3000": {
