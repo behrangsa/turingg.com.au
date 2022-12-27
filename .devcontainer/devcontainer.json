@@ -3,13 +3,13 @@
   "features": {
     "ghcr.io/devcontainers/features/github-cli": {},
     "ghcr.io/devcontainers/features/nix:1": {
-		"packages": "nodePackages.prettier"
-	}
-  },
-  "portsAttributes": {
-    "3000": {
-      "label": "Preview",
-      "onAutoForward": "notify"
+      "packages": "nodePackages.prettier"
+    },
+    "portsAttributes": {
+      "3000": {
+        "label": "Preview",
+        "onAutoForward": "notify"
+      }
     }
   }
 }
