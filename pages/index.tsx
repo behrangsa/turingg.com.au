@@ -22,21 +22,18 @@ export default function Home() {
 
         <div className={`${plex.className} ${styles.aboutUs}`}>
           <h2>About us</h2>
+          <img src="/AdobeStock_211095871.jpeg" alt="" className={styles.heroImage}/>
           <p>
             We are a small team of software developers based in
             Melbourne,&nbsp;Australia. We help our clients with their cloud
             infrastructure, backend &amp; frontend development, requirements
             gathering, &amp; solution design needs.
           </p>
-
-          <video autoPlay loop style={{ width: "100%" }}>
-            <source src="/AdobeStock_435578734_Video_HD_Preview.mov" />
-          </video>
-
+          <h2>Services</h2>
           <p>
             If you are looking to build a new website for your business, or if
             you are looking to renovate your existing website(s), we can help
-            you with that by embracing modern &amp; agile technologies such as
+            you with that by embracing modern &amp; sophisticated technologies such as
             Next.js, Vercel, &amp; serverless.com.
           </p>
         </div>
