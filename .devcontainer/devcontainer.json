@@ -1,19 +1,18 @@
 {
   "name": "turingg.com.au",
-  "features": {
-    "ghcr.io/devcontainers/features/github-cli": {},
-    "ghcr.io/devcontainers/features/node:1": {}
-  },
   "portsAttributes": {
     "3000": {
-      "label": "turingg.com.au - dev",
+      "label": "Preview",
       "onAutoForward": "openBrowserOnce"
     }
   },
   "extensions": [
-    "GitHub.codespaces",
-    "ms-vscode-remote.remote-containers",
-    "esbenp.prettier-vscode"
+    "GitHub.copilot",
+    "GitHub.vscode-pull-request-github",
+    "GitHub.github-vscode-theme",
+    "GitHub.remotehub",
+    "esbenp.prettier-vscode",
+    "ms-vscode-remote.remote-containers"
   ],
   "postCreateCommand": "./.devcontainer/postCreateCommand.sh"
 }
