@@ -6,7 +6,7 @@
   max-width: 768px;
   margin: 0 auto;
   background: #fff;
-  padding: 1rem;
+  padding: 1rem 1rem 3rem 1rem;
 }
 
 .header {
@@ -25,6 +25,24 @@
   font-size: 1.5rem;
 }
 
+.aboutUs img {
+  margin-bottom: 1rem;
+}
+
+.aboutUs p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.aboutUs h2 {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.aboutUs h2:first-child {
+  margin-top: 0;
+}
+
 .pastClients {
   display: flex;
   gap: 1rem;
@@ -39,4 +57,20 @@
 .heroImage {
   width: 100%;
   box-sizing: border-box;
+}
+
+.main a {
+  display: inline-block;
+  position: relative;
+  color: #0083AA;
+}
+
+.main a::after {
+  content: "";
+  position: absolute;
+  bottom: -0.16em;
+  left: -1px;
+  right: -1px;
+  height: 5px;
+  background-color: #0083AA;
 }
