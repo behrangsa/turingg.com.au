@@ -3,7 +3,5 @@
   height: 80px;
   background-image: url(/tu-1x1.svg);
   background-repeat: no-repeat;
-  background-position: center center;
-  background-color: #000;
-  opacity: 1;
+  background-size: contain;
 }

@@ -2,3 +2,8 @@ body, html {
   margin: 0;
   padding: 0;
 }
+
+body {
+  padding-top: 2rem;
+  background-color: #043349;
+}
