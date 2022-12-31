@@ -1,5 +1,6 @@
-import { Box, Container, Paper, Typography, Link as MuiLink } from "@mui/material";
+import { Box, Container, Paper } from "@mui/material";
 import Head from "next/head";
+import { Copyright } from "../components/Copyright";
 import { Logo } from "../components/Logo";
 
 export default function Home() {
@@ -35,16 +36,3 @@ export default function Home() {
     </>
   );
 }
-
-function Copyright() {
-  return (
-    <Typography variant="body2" color="text.secondary" align="center">
-      {'Copyright © '}
-      <MuiLink color="inherit" href="https://turingg.com.au/">
-        Turingg Pty Ltd
-      </MuiLink>{' '}
-      {new Date().getFullYear()}.
-    </Typography>
-  );
-}
-
