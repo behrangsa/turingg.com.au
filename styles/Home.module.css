@@ -20,6 +20,21 @@
   left: 0;
   right: 0;
   text-align: center;
-  font-size: small;
   padding: 1rem;
+  font-weight: 200;
+}
+
+.body {
+  margin-top: 3rem;
+  font-size: 1.7rem;
+  font-weight: 200;
+  padding-bottom: 2rem;
+}
+
+.body p {
+  margin-bottom: 1rem;
+}
+
+.body h2 {
+  margin-bottom: 0;
 }
