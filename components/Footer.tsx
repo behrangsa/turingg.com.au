@@ -8,6 +8,7 @@ export const Footer = () => {
   return (
     <footer className={`${bodyFont.className} ${styles.footer}`}>
       <Copyright />
+      <span>ABN: 28 624 212 120.</span>
     </footer>
   );
 };
