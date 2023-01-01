@@ -21,7 +21,7 @@ export default function Home() {
         </header>
 
         <section className={`${plex.className} ${styles.body}`}>
-          <h2>About Us</h2>
+          <h2>About Tu</h2>
           <p>
             Welcome to <span>Turingg</span>,{" "}
             <a href="https://behrang.org">my</a> small software development
@@ -29,8 +29,8 @@ export default function Home() {
           </p>
           <p>
             I help my clients with their cloud infrastructure, backend
-            development, frontend development, requirements gathering, and
-            solution design needs.
+            development, and frontend development needs. I can also help you
+            with requirements gathering, architecture, and system solution design.
           </p>
           <h2>Services</h2>
           <p>

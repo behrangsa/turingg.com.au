@@ -9,6 +9,12 @@
   position: relative;
 }
 
+@media screen and (max-width: 768px) {
+  .root {
+    width: 100%;
+  }
+}
+
 .root p {
   margin: 0;
   padding: 0;
