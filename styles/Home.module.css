@@ -35,3 +35,7 @@
   margin-bottom: 0;
   font-weight: 900;
 }
+
+.mastodon {
+  display: none;
+}
