@@ -3,6 +3,8 @@ import { Copyright } from "../components/Copyright";
 import { Logo } from "../components/Logo";
 import { Petrona } from "@next/font/google";
 import styles from "../styles/Home.module.css";
+import { Header } from "../components/Header";
+import { Footer } from "../components/Footer";
 
 const bodyFont = Petrona({ weight: ["200", "500", "900"], subsets: ["latin"] });
 
@@ -16,9 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <main className={`${styles.root} ${bodyFont.className}`}>
-        <header>
-          <Logo />
-        </header>
+        <Header />
 
         <section className={styles.body}>
           <h2>About Tu</h2>
@@ -50,9 +50,7 @@ export default function Home() {
           </p>
         </section>
 
-        <footer className={`${bodyFont.className} ${styles.footer}`}>
-          <Copyright />
-        </footer>
+        <Footer />
       </main>
     </>
   );
