@@ -1,10 +1,8 @@
 import Head from "next/head";
-import { Copyright } from "../components/Copyright";
-import { Logo } from "../components/Logo";
 import { Petrona } from "@next/font/google";
-import styles from "../styles/Home.module.css";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
+import styles from "../styles/Home.module.css";
 
 const bodyFont = Petrona({ weight: ["200", "500", "900"], subsets: ["latin"] });
 
@@ -51,6 +49,7 @@ export default function Home() {
         </section>
 
         <Footer />
+        <a rel="me" href="https://social.vivaldi.net/@behrangsa" className={styles.mastodon}>Mastodon</a>
       </main>
     </>
   );
