@@ -4,6 +4,5 @@ body, html {
 }
 
 body {
-  padding-top: 2rem;
-  background-color: #043349;
+  background-color: hsl(263, 100%, 13%);
 }
