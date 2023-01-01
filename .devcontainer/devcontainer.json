@@ -1,0 +1,18 @@
+{
+  "name": "turingg.com.au",
+  "portsAttributes": {
+    "3000": {
+      "label": "Preview",
+      "onAutoForward": "openBrowserOnce"
+    }
+  },
+  "extensions": [
+    "GitHub.copilot",
+    "GitHub.vscode-pull-request-github",
+    "GitHub.github-vscode-theme",
+    "GitHub.remotehub",
+    "esbenp.prettier-vscode",
+    "ms-vscode-remote.remote-containers"
+  ],
+  "postCreateCommand": "./.devcontainer/postCreateCommand.sh"
+}

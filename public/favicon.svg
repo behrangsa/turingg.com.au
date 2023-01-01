@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="b" width="512" height="512" version="1.1" viewBox="0 0 512 512"
+   xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <defs id="c">
+      <linearGradient id="a" x1="36" x2="476" y1="220" y2="220" gradientUnits="userSpaceOnUse">
+         <stop id="d" stop-color="#ff8b42" offset="0" />
+         <stop id="e" stop-opacity="0" offset="1" />
+      </linearGradient>
+   </defs>
+   <rect id="f" width="512" height="512" fill="#fff" stroke-width="3.1584" />
+   <g id="g">
+      <g id="h" transform="translate(0,36)" fill="url(#a)" stroke-width="2.4761">
+         <rect id="i" x="36" width="440" height="112" />
+         <rect id="j" x="200" width="112" height="440" />
+      </g>
+   </g>
+</svg>
