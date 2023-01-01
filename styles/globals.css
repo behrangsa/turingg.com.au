@@ -6,3 +6,10 @@ body, html {
 body {
   background-color: hsl(263, 100%, 13%);
 }
+
+a {
+  color: #376d4d;
+  text-decoration-color: hsla(144, 33%, 32%, 0.3);
+  text-decoration-thickness: 3px;
+  text-decoration-skip-ink: none;
+}

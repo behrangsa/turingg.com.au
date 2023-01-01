@@ -1,10 +1,10 @@
 import Head from "next/head";
 import { Copyright } from "../components/Copyright";
 import { Logo } from "../components/Logo";
-import { IBM_Plex_Sans } from "@next/font/google";
+import { Petrona } from "@next/font/google";
 import styles from "../styles/Home.module.css";
 
-const plex = IBM_Plex_Sans({ subsets: ["latin"], weight: ["700", "200"] });
+const bodyFont = Petrona({ weight: ["200", "500", "900"], subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -15,12 +15,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.svg" />
       </Head>
-      <main className={styles.root}>
+      <main className={`${styles.root} ${bodyFont.className}`}>
         <header>
           <Logo />
         </header>
 
-        <section className={`${plex.className} ${styles.body}`}>
+        <section className={styles.body}>
           <h2>About Tu</h2>
           <p>
             Welcome to <span>Turingg</span>,{" "}
@@ -30,7 +30,8 @@ export default function Home() {
           <p>
             I help my clients with their cloud infrastructure, backend
             development, and frontend development needs. I can also help you
-            with requirements gathering, architecture, and system solution design.
+            with requirements gathering, architecture, and system solution
+            design.
           </p>
           <h2>Services</h2>
           <p>
@@ -49,7 +50,7 @@ export default function Home() {
           </p>
         </section>
 
-        <footer className={`${plex.className} ${styles.footer}`}>
+        <footer className={`${bodyFont.className} ${styles.footer}`}>
           <Copyright />
         </footer>
       </main>

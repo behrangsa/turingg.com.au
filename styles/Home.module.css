@@ -4,7 +4,7 @@
   padding: 1rem;
   padding-top: 3rem;
   width: 768px;
-  background-color: #e2e8dd;
+  background-color: #fff;
   min-height: 100vh;
   position: relative;
 }
@@ -43,4 +43,5 @@
 
 .body h2 {
   margin-bottom: 0;
+  font-weight: 900;
 }
