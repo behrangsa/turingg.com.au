@@ -37,7 +37,7 @@ export default function Home() {
           <p>
             If you are looking to build a new website for your business, or to
             renovate your existing website, I can help you by embracing agile
-            and high-end technologies such as{" "}
+            and sophisticated technologies such as{" "}
             <a href="https://nextjs.org">Next.js</a>,{" "}
             <a href="https://vercel.com">Vercel</a>, and{" "}
             <a href="https://www.serverless.com/cloud">serverless.com</a> or by
